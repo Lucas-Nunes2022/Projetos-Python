@@ -1,10 +1,11 @@
 print("Bem vindo(a) a mais competente calculadora do mercado. É leve e simples de usar. vamos orientá-lo durante o processo para que você tenha o resultado que espera.")
 nome=input('Primeiro insira o seu nome para que possamos lhe oferecer uma experiência de uso mais personalizada. Se preferir, pule esta parte:')
 print(f"Olá {nome}. Agora vamos aos próximos passos.")
-valor1=input(f'{nome} insira o primeiro número:')
-valor2=input(f'{nome} insira o segundo número:')
+valor1=input(f'insira o primeiro número:')
+valor2=input(f'insira o segundo número:')
 print(f"Digite a operação:\n\t + para adição;\n\t - para subtração;\n\t * para multiplicação;\n\t / para divisão.")
 operação=input(f'{nome} qual a operação?:')
 equacao=f'{valor1} {operação} {valor2}'
 resultado=eval(equacao)
 print(f"O Resultado é:{resultado}")
+print(f"A operação foi concluída com êxito. \n Agradecemos a confiança {nome}. \n Obrigado e até a próxima.")
